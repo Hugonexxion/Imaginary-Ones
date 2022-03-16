@@ -232,7 +232,7 @@ async function onSubmit(isUpsell) {
 }
 
 function increaseTotal() {
-    if (totalNFT.value == '20') return;
+    if (totalNFT.value == '5') return;
     totalNFT.value = parseInt(totalNFT.value) + 1;
     state.amount = parseInt(totalNFT.value);
     updateTotal()
